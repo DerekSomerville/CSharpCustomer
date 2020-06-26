@@ -17,7 +17,7 @@ namespace Customer.src.EntityDataSourceMapping
 
         private string[] dataSourceFields = { "emailAddress", "firstName", "lastName", "password" };
 
-        private List<String[]> getCustomerData()
+        public List<String[]> getCustomerData()
         {
             ReadDelimitedFile customerFileReader = new ReadDelimitedFile();
             return customerFileReader.getFileData(DataSourceConstants.ENTITIES_FOLDER, customerTableName + DataSourceConstants.FILE_TYPE);
