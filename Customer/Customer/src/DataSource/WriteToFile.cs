@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Customer.src.DataSource
 {
-    class WriteToFile
+    public class WriteToFile
     {
         private System.IO.StreamWriter fileWriter;
         private const string filePathPrefix = DataSourceConstants.RESOURCE;

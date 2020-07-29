@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Customer.src.DataSource
 {
-    class ReadDelimitedFile
+    public class ReadDelimitedFile
     {
         private string fileDelimitor = ",";
         private const string filePathPrefix = DataSourceConstants.RESOURCE;

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Customer.src.Entities
 {
-    class Customer
+    public class Customer
     {
         public string firstName { get; }
         public string lastName { get; }

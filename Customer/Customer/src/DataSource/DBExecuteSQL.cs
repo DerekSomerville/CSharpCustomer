@@ -5,7 +5,7 @@ using System.Data.SQLite;
 
 namespace Customer.src.DataSource
 {
-    class DBExecuteSQL
+    public class DBExecuteSQL
     {
         private DBConnection dbConnector = DBConnection.getInstance();
         private SQLiteConnection connection = null;

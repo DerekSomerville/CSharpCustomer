@@ -5,7 +5,7 @@ using System.Data.SQLite;
 
 namespace Customer.src.DataSource
 {
-    interface DBConnInterface
+    public interface DBConnInterface
     {
         public SQLiteConnection createConnection();
     }

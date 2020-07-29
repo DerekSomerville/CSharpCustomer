@@ -6,7 +6,7 @@ using Customer.src.Entities;
 
 namespace Customer.src.EntityDataSourceMapping
 {
-    class CustomerDatabaseMapping
+    public class CustomerDatabaseMapping
     {
         private const string customerTableName = "customer";
 
