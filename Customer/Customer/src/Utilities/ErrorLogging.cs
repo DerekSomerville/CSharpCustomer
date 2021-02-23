@@ -28,7 +28,7 @@ namespace Customer.src.Utilities
         public void writeToLog(string method, string message)
         {
             Console.WriteLine("Method: " + method + " message: " + message);
-            this.writeErrorLog.write(method + "," + message);
+            this.writeErrorLog.write(method + ", " + message);
         }
     }
 }
